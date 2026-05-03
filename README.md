@@ -48,4 +48,36 @@ http://localhost:8080
 | PUT | `/brinquedos/{id}`
 | DELETE | `/brinquedos/{id}`
 
+## Estrutura JSON
+
+### POST/brinquedos
+```
+{
+  "nome": "Bola de futebol",
+  "tipo": "Bola",
+  "classificacao": "Livre",
+  "tamanho": "Médio",
+  "preco": 109.99
+}
+```
+
+
 ## Prints
+
+### GET (listar todos)
+![GET](assets/get_all.jpg)
+
+### GET (listar por ID)
+![GET](assets/get_by_id.jpg)
+
+### PUT
+![PUT](assets/put.jpg)
+
+### POST
+![POST](assets/post.jpg)
+
+### DELETE
+![DELETE](assets/delete.jpg)
+
+### SPRING CONFIG
+![SPRING CONFIG](assets/spring_config.jpg)
